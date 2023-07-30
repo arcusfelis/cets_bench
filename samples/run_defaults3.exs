@@ -45,7 +45,7 @@ Benchee.run(
   },
   warmup: 2,
   time: 10,
-  parallel: 2,
+  parallel: 16,
 # profile_after: true
 # profile_after: :fprof
   profile_after: {:fprof, [sort: :own , apply_opts: [procs: [pid1, pid1_new]]]}
